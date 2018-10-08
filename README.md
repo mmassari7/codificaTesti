@@ -1,0 +1,2 @@
+# codificaTesti
+Codifica di testi
