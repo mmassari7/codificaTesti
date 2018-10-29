@@ -39,7 +39,7 @@
 
     <text xml:lang="it">
         <body>
-            <div>
+            <div n="1" type="chapter">
                 <head>Premessa</head>
                 <p>
                     Una delle poche cose, anzi forse la sola ch’io sapessi di certo era questa: che mi chiamavo Mattia Pascal. E me ne approfittavo. Ogni qual volta qualcuno de’ miei amici o conoscenti dimostrava d’aver perduto il senno fino al punto di venire da me per qualche consiglio o suggerimento, mi stringevo nelle spalle, socchiudevo gli occhi e gli rispondevo:
