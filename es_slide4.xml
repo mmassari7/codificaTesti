@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="tei-lite.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title>Il fu Mattia Pascal</title>
+                <author>Luigi Pirandello</author>
+            </titleStmt>
+            <editionStmt>
+                <date>29 Ottobre 2018</date>
+                <respStmt>
+                    <resp>Testo codificato da</resp>
+                    <name>Marica Massari</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <distributor>Biblioteca dei Classici italiani di Giuseppe Bonghi</distributor>
+            </publicationStmt>
+            <notesStmt>
+                <note>Questo esercizio è presente nella quarta slide</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibliStruct>
+                    <monogram>
+                        <title>Opere di Luigi Pirandello</title>
+                        <imprint>
+                            <publisher>Arnoldo Mondadori Editore</publisher>
+                            <date></date>
+                        </imprint>
+                    </monogram>
+                </bibliStruct>
+            </sourceDesc>
+         </fileDesc>
+
+        <encodingDesc>
+        </encodingDesc>
+    </teiHeader>
+
+    <text xml:lang="it">
+        <body>
+            <div>
+                <head>Premessa</head>
+                <p>
+                    Una delle poche cose, anzi forse la sola ch’io sapessi di certo era questa: che mi chiamavo Mattia Pascal. E me ne approfittavo. Ogni qual volta qualcuno de’ miei amici o conoscenti dimostrava d’aver perduto il senno fino al punto di venire da me per qualche consiglio o suggerimento, mi stringevo nelle spalle, socchiudevo gli occhi e gli rispondevo:
+                    – Io mi chiamo Mattia Pascal.
+                    – Grazie, caro. Questo lo so.
+                    – E ti par poco?
+                    Non pareva molto, per dir la verità, neanche a me. Ma ignoravo allora che cosa volesse dire il non sapere neppur questo, il non poter più rispondere, cioè, come prima, all’occorrenza:
+                    – Io mi chiamo Mattia Pascal.
+                </p>
+                <p>
+                    Qualcuno vorrà bene compiangermi (costa così poco), immaginando l’atroce cordoglio d’un disgraziato, al quale avvenga di scoprire tutt’a un tratto che... sì, niente, insomma: né padre, né madre, né come fu o come non fu; e vorrà pur bene indignarsi (costa anche meno) della corruzione dei costumi, e de’ vizii, e della tristezza dei tempi, che di tanto male possono esser cagione a un povero innocente.
+                    Ebbene, si accomodi. Ma è mio dovere avvertirlo che non si tratta propriamente di questo. Potrei qui esporre, di fatti, in un albero genealogico, l’origine e la discendenza della mia famiglia e dimostrare come qualmente non solo ho conosciuto mio padre e mia madre, ma e gli antenati miei e le loro azioni, in un lungo decorso di tempo, non tutte veramente lodevoli.
+                    E allora?
+                    Ecco: il mio caso è assai più strano e diverso; tanto diverso e strano che mi faccio a narrarlo.
+                </p>
+                <p>
+                    Fui, per circa due anni, non so se più cacciatore di topi che guardiano di libri nella biblioteca che un monsignor Boccamazza, nel 1803, volle lasciar morendo al nostro Comune. 
+                    È ben chiaro che questo Monsignore dovette conoscer poco l’indole e le abitudini de’ suoi concittadini; o forse sperò che il suo lascito dovesse col tempo e con la comodità accendere nel loro animo l’amore per lo studio. 
+                    Finora, ne posso rendere testimonianza, non si è acceso: e questo dico in lode de’ miei concittadini: del dono anzi il Comune si dimostrò così poco grato al Boccamazza, che non volle neppure erigergli un mezzo busto pur che fosse, e i libri lasciò per molti e molti anni accatastati in un vasto e umido magazzino, donde poi li trasse, pensate voi in quale stato, per allogarli nella chiesetta fuori mano di Santa Maria Liberale, non so per qual ragione sconsacrata. 
+                    Qua li affidò, senz’alcun discernimento, a titolo di beneficio, e come sinecura, a qualche sfaccendato ben protetto il quale, per due lire al giorno, stando a guardarli, o anche senza guardarli affatto, ne avesse sopportato per alcune ore il tanfo della muffa e del vecchiume.
+                </p>
+                <p>
+                    Tal sorte toccò anche a me; e fin dal primo giorno io concepii così misera stima dei libri, sieno essi a stampa o manoscritti (come alcuni antichissimi della nostra biblioteca), che ora non mi sarei mai e poi mai messo a scrivere, se, come ho detto, non stimassi davvero strano il mio caso e tale da poter servire d’ammaestramento a qualche curioso lettore, che per avventura, riducendosi finalmente a effetto l’antica speranza della buon’anima di monsignor Boccamazza, capitasse in questa biblioteca, a cui io lascio questo mio manoscritto, con l’obbligo però che nessuno possa aprirlo se non cinquant’anni dopo la mia terza, ultima e definitiva morte.
+                    Giacché, per il momento (e Dio sa quanto me ne duole), io sono morto, sì, già due volte, ma la prima per errore, e la seconda... sentirete.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
