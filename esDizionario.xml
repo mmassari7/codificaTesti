@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc xml:lang="it">
+        <titleStmt>
+            <title>Primo esercizio sui dizionari</title>
+            <author>Marica Massari</author>
+            <date>22 ottobre 2018</date>
+        </titleStmt>
+        <publicationStmt>
+            <p>Informazioni sulla pubblicazione</p>
+        </publicationStmt>
+        <sourceDesc>
+            <p>Informazioni sulla sorgente</p>
+        </sourceDesc>
+    </fileDesc>
+</teiHeader>
+<text xml:lang="it">
+    <body>
+        <entry>
+            <form type="lemma">
+                <orth>Lessicografo</orth>
+                <pron nomination="ipa">lessi'kografo</pron>
+                <syll>les|si|co|gra|fo</syll>
+            </form>
+            <gramGrp>
+                <pos>s.</pos>
+                <gen>m.</gen>
+            </gramGrp>
+            <etym>
+                Dal<lang>greco tardo</lang>
+                <mentioned>inserisci</mentioned>, composto di
+                <mentioned>inserisci</mentioned>ossia
+                <gloss>"lessico"</gloss> e
+                <mentioned>inserisci</mentioned> ovvero
+                <gloss>"-grafo"</gloss>
+            </etym>
+            <sense n="s1">
+                <xr type="syn">
+                    <ref>dizionarista</ref>
+                </xr>
+                <xr type="syn">
+                    <ref>vocabolarista</ref>
+                </xr>
+            </sense>
+        </entry>
+    </body>
+</text>
+</TEI>
