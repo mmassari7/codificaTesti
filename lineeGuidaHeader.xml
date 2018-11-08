@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="tei-lite.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            INFORMAZIONI SUL FILE STESSO
+            <titleStmt>
+                INSERIRE TITOLO E AUTORE (obbligatorio)
+            </titleStmt>
+            <editionStmt>
+                INFORMAZIONI TESTO DIGITALE
+            </editionStmt>
+            <publicationStmt>
+                COME QUESTA EDIZIONE SARA' PUBBLICATA (obbligatorio)
+            </publicationStmt>
+            <sourceDesc>
+                INFORMAZIONI TESTO ORIGINARIO (obbligatorio)
+            </sourceDesc>
+            <notesStmt>
+                NOTE AGGIUNTIVE
+            </notesStmt>
+        </fileDesc>
+        <encodingDesc>
+            INFORMAZIONI SCHEMA E MODELLO DI CODIFICA
+        </encodingDesc>
+        <profileDesc>
+            DESCRIZIONE DEL TESTO: CREATORE, DATA, LINGUE ECC.
+        </profileDesc>
+        <revisionDesc>
+            INFORMAZIONI VERSIONI DEL FILE
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    TESTO
+    </text>
+</TEI>
