@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-model href="tei-lite.rng"?>
+<!-- Marica Massari-->
+<!-- Esercizio 12 Novembre 2018-->
+<!-- Codifica lettera Bellini-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vincenzo Bellini a Carlo Pepoli, in Puteaux, 26 giugno 1834 </title>
+				<author>Vincenzo Bellini</author>
+                <respStmt>
+                    <resp>Trascrizione TEI P5 di:</resp>
+                    <name>Marica Massari</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Esercizio lezione 6
+					<date when="2018-11-8">14 Novembre 2018</date>
+				</edition>
+                <respStmt>
+                    <resp>Testo codificato da</resp>
+                    <name>Marica Massari</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Fondazioni Bellini</publisher>
+                <availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+					<ref target="TEI-ListBibl.xml#Seminara2017"/>
+					<biblScope unit="page">368</biblScope>
+				</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="surf_1_LL1.16"> <!-- FRONTE RECTO -->
+            <graphic url="LL1.16_001.jpg" width='1265px' height='1639px'/>
+            <zone ulx="37" uly="32" lrx="1177" lry="120" rendition="Line" xml:id="LL1.16_s1_line1"/>
+            <zone ulx="929" uly="120" lrx="1234" lry="216" rendition="Line" xml:id="LL1.16_s1_line2"/>
+            <zone ulx="212" uly="188" lrx="916" lry="288" rendition="Line" xml:id="LL1.16_s1_line3"/>
+            <zone ulx="321" uly="352" lrx="1225" lry="461" rendition="Line" xml:id="LL1.16_s1_line4"/>
+            <zone ulx="155" uly="490" lrx="1170" lry="617" rendition="Line" xml:id="LL1.16_s1_line5"/>
+            <zone ulx="173" uly="641" lrx="1140" lry="754" rendition="Line" xml:id="LL1.16_s1_line6"/>
+            <zone ulx="154" uly="791" lrx="1142" lry="928" rendition="Line" xml:id="LL1.16_s1_line7"/>
+            <zone ulx="144" uly="946" lrx="1224" lry="1103" rendition="Line" xml:id="LL1.16_s1_line8"/>
+            <zone ulx="142" uly="1112" lrx="1170" lry="1238" rendition="Line" xml:id="LL1.16_s1_line9"/>
+            <zone ulx="129" uly="1254" lrx="1241" lry="1374" rendition="Line" xml:id="LL1.16_s1_line10"/>
+            <zone ulx="135" uly="1367" lrx="1225" lry="1478" rendition="Line" xml:id="LL1.16_s1_line11"/>
+            <zone ulx="112" uly="1477" lrx="1123" lry="1542" rendition="Line" xml:id="LL1.16_s1_line12"/>
+            <zone ulx="686" uly="1545" lrx="1165" lry="1599" rendition="Line" xml:id="LL1.16_s1_line13"/>
+        </surface>
+
+        <surface n="2" xml:id="surf_2_LL1.16"> <!-- RETRO RECTO -->
+            <graphic url="LL1.16_0002.jpg" width='1283px' height='1646px' />
+        </surface>
+
+        <surface n="3" xml:id="surf_3_LL1.16"> <!-- RETRO VERSO -->
+			<graphic url="LL1.16_0003.jpg" width='1265px' height='1639px' />
+		</surface>
+
+        <surface n="4" xml:id="surf_4_LL1.16"> <!-- FRONTE VERSO -->
+			<graphic url='LL1.16_0004.jpg' width='1268px' height='1646px' />
+            <zone ulx="60" uly="38" lrx="375" lry="127" rendition="HotSpot" xml:id="LL1.16_s4_hotspot1"/>  <!-- timbro del destinatario con data, prima metà-->
+            <zone ulx="780" uly="351" lrx="1158" lry="718" rendition="HotSpot" xml:id="LL1.16_s4_hotspot2"/> <!-- timbro del mittente con data -->
+            <zone ulx="51" uly="1148" lrx="404" lry="1511" rendition="HotSpot" xml:id="LL1.16_s4_hotspot3"/> <!-- timbro del destinatario con data, seconda metà-->
+            <zone ulx="449" uly="1104" lrx="687" lry="1542" rendition="HotSpot" xml:id="LL1.16_s4_hotspot4"/> <!-- seconda mano di Pepoli -->
+            <zone ulx="686" uly="963" lrx="1225" lry="1609" rendition="HotSpot" xml:id="LL1.16_s4_hotspot5"/> <!-- terza mano del bibliotecario -->
+            <zone ulx="186" uly="512" lrx="779" lry="636" rendition="Line" xml:id="LL1.16_s4_line1"/> <!--informazioni del destinatario-->
+            <zone ulx="182" uly="659" lrx="1232" lry="735" rendition="Line" xml:id="LL1.16_s4_line2"/> <!--informazioni del destinatario-->
+            <zone ulx="179" uly="769" lrx="1226" lry="879" rendition="Line" xml:id="LL1.16_s4_line3"/> <!--informazioni del destinatario-->
+            <zone ulx="671" uly="879" lrx="1079" lry="957" rendition="Line" xml:id="LL1.16_s4_line4"/> <!--informazioni del destinatario-->
+        </surface>
+    </facsimile>
+
+    <text xml:lang="ita" type="letter" xml:id="LL1.16text">
+        <front> 
+            <pb n="4" xml:id="LL1.16_front1_front" facs="#surf_4_LL1.16" /> <!-- FRONTE VERSO front-->
+            <div type="sent" n="s4_div1">
+                <ab> <!-- blocco con timbro del mittente con data-->
+                    <stamp type="postage"  facs="#LL1.16_s4_hotspot2"> 
+                        <mentioned>
+                            <placeName>NEUILLY - SUR - SEINE</placeName>
+							<date when="1834-06-27"> 27  JUIN 1834 </date>
+                        </mentioned>
+                    </stamp>
+                </ab>
+            </div>
+            <div type="destination" n="s4_div2">
+                <ab> <!-- blocco con timbro del destinatario con data-->
+                    <stamp type="postage" facs="#LL1.16_s4_hotspot1 #LL1.16_s4_hotspot3">
+                        <placeName>
+                            <unclear reason="illegible"></unclear>
+                        </placeName>
+                        <date when="1834-06-27"> 27
+							<unclear reason="illegible"> juin </unclear> 1834
+						</date>
+                    </stamp>
+                </ab>
+                <ab> <!-- blocco con informazioni del destinatario-->
+                    <address type="receiver">
+                        <lb xml:id="LL1.16_s4_lb1" facs="#LL1.16_s4_line1"/>
+                        <addrLine>à Monsieur</addrLine>
+                        <lb xml:id="LL1.16_s4_lb2" facs="#LL1.16_s4_line2"/>
+                        <addrLine>onsieur le Comte <persName>Pepoli</persName></addrLine>
+                        <lb xml:id="LL1.16_s4_lb3" facs="#LL1.16_s4_line3"/>
+                        <addrLine>N:° 1: passage des petits Pères</addrLine>
+                        <lb xml:id="LL1.16_s4_lb4" facs="#LL1.16_s4_line4"/>
+                        <addrLine> à <placeName>Paris</placeName></addrLine>
+                    </address>
+                </ab>
+            </div>
+        </front>
+
+        <body>
+            <pb n="1" xml:id="LL1.16_front2" facs="#surf_1_LL1.16" /> <!-- FRONTE RECTO -->
+            <div type="dateline" n="s1_div1">
+                <ab> <!-- blocco con informazioni di luogo e data della lettera-->
+                    <lb xml:id="LL1.16_s1_lb0" n="0" facs="#LL1.16_s1_line1"/>
+                    <dateline>
+                        <date>Juin 26</date>:
+                        <placeName>Puteau</placeName> –
+                        <address>N:° 19 by rampe </address>
+                        <lb xml:id="LL1.16_s1_lb1" n="1" facs="#LL1.16_s1_line2"/>
+                        <hi rend="underline align(right)">
+                            <placeName>de Neuilly</placeName>
+                        </hi>
+                    </dateline>
+                </ab>
+            </div>
+            <div type="letter-body" n="s1_div2"> 
+                <ab> <!-- blocco incipit lettera-->
+                    <s type="sentence" n="s0">
+                        <lb xml:id="LL1.16_s1_lb2" n="2" facs="#LL1.16_s1_line3"/>
+                        <hi rend="align(left)">Mio caro <persName>Carluccio</persName></hi>
+                    </s>
+                </ab>
+                <ab> <!-- blocco corpo lettera-->
+                    <s type="sentence" n="s1">
+                        <lb xml:id="LL1.16_s1_lb3" n="3" facs="#LL1.16_s1_line4"/>
+                        Avendo steso l'intero duetto
+                        <lb xml:id="LL1.16_s1_lb4" n="4" facs="#LL1.16_s1_line5"/>
+                        e mancando in esso qualche
+                        <lb xml:id="LL1.16_s1_lb5" n="5" facs="#LL1.16_s1_line6"/>
+                        cosetta, desidererei che tu
+                        <lb xml:id="LL1.16_s1_lb6" n="6" facs="#LL1.16_s1_line7"/>
+                        t'incommodassi a venire a'
+                        <lb xml:id="LL1.16_s1_lb7" n="7" facs="#LL1.16_s1_line8"/>
+                        <placeName>Puteau</placeName> per tutto fissare, e
+                        <lb xml:id="LL1.16_s1_lb8" n="8" facs="#LL1.16_s1_line9"/>
+                        nell'istesso tempo dammi la
+                        <lb xml:id="LL1.16_s1_lb9" n="9" facs="#LL1.16_s1_line10"/>
+                        sortita di <persName>Rubini</persName>, se è <w>termi
+                        <lb xml:id="LL1.16_s1_lb10" n="10" break="no" facs="#LL1.16_s1_line11"/>
+                        nata</w>.
+                    </s>
+                    <s type="sentence" n="s2"> T'aspetto in qual giorno
+                        <lb xml:id="LL1.16_s1_lb11" n="11" facs="#LL1.16_s1_line12"/>
+                        ed in qual'ora vorrai.
+                    </s>
+                    <s type="sentence" n="s3">
+                        - Addio
+                    </s>
+                </ab>
+            </div>
+            <div type="letter-closer" n="s1_div3">
+                <ab> <!-- blocco saluti finali lettera-->
+                    <s type="sentence" n="s4">
+                        <lb xml:id="LL1.16_s1_lb12" n="12" facs="#LL1.16_s1_line13"/>
+                        Il tuo <hi rend="underline"><person>Vincenzillo</person></hi>
+                    </s>
+                </ab>
+            </div>
+            <div> 
+                <pb n="2" xml:id="LL1.16_back1" facs="#surf_2_LL1.16" /> <!-- RETRO RECTO -->
+            </div>
+            <div> 
+                <pb n="3" xml:id="LL1.16_back2" facs="#surf_3_LL1.16" /> <!-- RETRO VERSO -->
+            </div>
+            <div> 
+                <pb n="4" xml:id="LL1.16_front1_body" facs="#surf_4_LL1.16" /> <!-- FRONTE VERSO body-->
+                <ab type="paratext" subtype="addition" facs="#LL1.16_s4_hotspot5"> <!-- blocco con terza mano del bibliotecario -->
+                    27 Lettera del Bellini sul <term subtype="music-term">duetto</term> del p:° Atto dei <term>Puritani</term>
+                </ab>
+                <ab type="paratext" subtype="addition" facs="#LL1.16_s4_hotspot4"> <!-- blocco con seconda mano di Pepoli -->
+                    <persName>
+                        <choice>
+                            <abbr>C</abbr>
+                            <expan>C<ex>arlo</ex></expan>
+                        </choice> Pepoli
+                    </persName>
+                </ab>
+            </div>
+        </body>
+    </text>
+</TEI>
