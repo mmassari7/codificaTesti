@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "tei.dtd">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="titleCorpus">Cartoline a Oliva</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di: </resp>
+                    <name xml:id="MM">Marica Massari</name>
+                    <name xml:id="AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name>
+                        <orgName type="comune" xml:id="SP">Comune della <placeName>Spezia</placeName></orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, <orgName xml:id="UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                    <date>2019</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO-->
+                <respStmt>
+                    <resp>Compilatore: </resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo sotto licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD - Laboratorio di cultura digitale</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>
+                            Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale
+                        </repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Edizione digitale image-based (diplomatico-interpretativa) di tre cartoline contenute in una collezione situata nel Museo Civico Etnografico "Giovanni Podenzana" di La Spezia. La codifica effettuata prevede la trascrizione letterale del testo senza interventi sostanziali: sono state, ad esempio, espanse le abbreviazioni e semplicemente segnalate le parti poco chiare.</p>
+        </encodingDesc>
+    </teiHeader>
+    <?xml-stylesheet type="text/xsl" href="transform.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="206">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO (dell'edizione digitale) -->
+                <title>Luglio - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name>
+                        <orgName type="comune" ref="#SP">Comune della <placeName>Spezia</placeName></orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                    <date>2019</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica a cura di: </resp>
+                    <name ref="MM">Marica Massari</name>
+                    <name ref="AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO-->
+                <respStmt>
+                    <resp>Compilatore: </resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo sotto licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc n="206">
+                <bibl>
+                    <!-- TITOLO -->
+                    <title>Luglio</title>
+                    <author><persName ref="#M">Mauzano</persName></author>
+                    <publisher>Ufficio Revisione Stampa Milano</publisher>
+                    <pubPlace>Milano</pubPlace>
+                    <!-- CRONOLOGIA-->
+                    <date when="1917-03-27">27-03-1917</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_206_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Poste Italiane 5 centesimi</stamp>
+                                </support>
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI che compaiono all'interno della cartolina -->
+                <listPerson>
+                    <person>
+                        <persName xml:id="GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person>
+                        <persName xml:id="OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person>
+                        <persName ref="#M">
+                            <surname>Mauzano</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+                <!-- POSTI che compaiono all'interno della cartolina -->
+                <listPlace>
+                    <place>
+                        <placeName xml:id="RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="GC"/>
+                    <date type="postage" when="1917">1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName>
+                        <address>
+                            <addrLine>Via Gerolamo Rossi - 58</addrLine>
+                            <addrLine>Ravenna</addrLine>
+                        </address>
+                    </placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Una donna seduta sotto un albero viene sventolata da un amorino con un ventaglio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="surface7694-206F"> <!-- FRONTE -->
+            <graphic url="group/7694-206F.jpg" width="533px" height="830px" n="imgF206"/>
+        </surface>
+
+        <surface xml:id="surface7694-206R"> <!-- RETRO -->
+            <graphic url="group/7694-206R.jpg" width="827px" height="536px" n="imgR206"/>
+            <zone ulx="268" uly="163" lrx="508" lry="203" rendition="Line" xml:id="line1_7694-206R"/> <!-- gentile.. -->
+            <zone ulx="283" uly="209" lrx="531" lry="249" rendition="Line" xml:id="line2_7694-206R"/> <!-- -->
+            <zone ulx="277" uly="253" lrx="566" lry="296" rendition="Line" xml:id="line3_7694-206R"/> <!-- -->
+            <zone ulx="291" uly="300" lrx="554" lry="356" rendition="Line" xml:id="line4_7694-206R"/> <!-- -->
+            <zone ulx="478" uly="16" lrx="578" lry="136" rendition="HotSpot" xml:id="hotspot1_7694-206R"/> <!-- Primo francobollo + timbro --> 
+            <zone ulx="370" uly="16" lrx="475" lry="103" rendition="HotSpot" xml:id="hotspot2_7694-206R"/> <!-- Secondo francobollo + timbro --> 
+            <zone ulx="325" uly="106" lrx="390" lry="159" rendition="HotSpot" xml:id="hotspot3_7694-206R"/> <!-- NUMERO 2 -->
+            <zone ulx="7" uly="42" lrx="16" lry="348" rendition="HotSpot" xml:id="hotspot4_7694-206R"/> <!-- proprietà artistica... -->
+            <zone ulx="232" uly="349" lrx="267" lry="364" rendition="HotSpot" xml:id="hotspot5_7694-206R"/> <!-- 13-7 -->
+            <zone ulx="237" uly="27" lrx="257" lry="213" rendition="Line" xml:id="line5_7694-206R"/> <!-- oLIVA cara... -->
+            <zone ulx="217" uly="26" lrx="232" lry="344" rendition="Line" xml:id="line6_7694-206R"/> <!-- seconda riga... -->
+            <zone ulx="192" uly="29" lrx="210" lry="343" rendition="Line" xml:id="line7_7694-206R"/> <!-- terza riga... -->
+            <zone ulx="168" uly="28" lrx="187" lry="347" rendition="Line" xml:id="line8_7694-206R"/> <!-- quarta riga... -->
+            <zone ulx="143" uly="21" lrx="161" lry="350" rendition="Line" xml:id="line9_7694-206R"/> <!-- quinta riga... -->
+            <zone ulx="118" uly="16" lrx="136" lry="347" rendition="Line" xml:id="line10_7694-206R"/> <!-- sesta riga... -->
+            <zone ulx="97" uly="21" lrx="113" lry="350" rendition="Line" xml:id="line11_7694-206R"/> <!-- settima riga... -->
+            <zone ulx="74" uly="22" lrx="88" lry="349" rendition="Line" xml:id="line12_7694-206R"/> <!-- ottava riga... -->
+            <zone ulx="51" uly="24" lrx="67" lry="271" rendition="Line" xml:id="line13_7694-206R"/> <!-- nona riga... -->
+            <zone ulx="32" uly="30" lrx="46" lry="345" rendition="Line" xml:id="line14_7694-206R"/> <!-- decima riga... -->
+            <zone ulx="5" uly="33" lrx="46" lry="525" rendition="Line" xml:id="line15_7694-206R"/> <!-- abbia tu un bacio  - giovannino... -->
+            <zone ulx="36" uly="363" lrx="331" lry="374" rendition="Line" xml:id="hotspot6_7694-206R"/> <!-- ho bisogno -->
+            <zone ulx="293" uly="15" lrx="355" lry="63" rendition="HotSpot" xml:id="hotspot7_7694-206R"/> <!-- 206 -->
+        </surface>
+    </facsimile>
+
+    <text type="cartolina" xml:id="text7694-206" xml:lang="ita">
+        <body n="206">
+            <div type="fronte" facs="#surface7694-206F">
+                <note n="noteFronte">In alto a sinistra è riportato il titolo della cartolina, mentre in basso a sinistra è collocata la firma dell'artista (<name xml:id="M">Mauzano</name>). L'inchiostro di un timbro presente sul retro ha imbrattato il fronte.</note>
+                <figure>
+                    <head>Luglio</head>
+                    <figDesc>La cartolina raffigura una donna adagiata sotto un albero mentre viene sventolata da un amorino con un ventaglio</figDesc>
+                </figure>
+            </div>
+            <div type="retro" facs="#surface7694-206R">
+                <div type="message">
+                    <opener> 
+                        <lb facs="#line5_7694-206R"/> 
+                        <salute>Oliva cara, che dirti?</salute> 
+                    </opener>
+                    <p> 
+                        <lb facs="#line6_7694-206R"/> L'unica risoluzione è quella d'affogare
+                        <lb facs="#line7_7694-206R"/>i pensieri nei libri con uno strato ben
+                        <lb facs="#line8_7694-206R"/> denso di <unclear reason="illegible" cert="medium"> polverone diffuso</unclear>. E lascerò il
+                        <lb facs="#line9_7694-206R"/> momento di lucidità - e quello è <w>terribil
+                        <lb facs="#line10_7694-206R" break="no"/>mente</w> sublime. Delucida le idee.
+                        <lb facs="#line11_7694-206R"/> Fra l'altro emerge sempre più il nostro
+                        <lb facs="#line12_7694-206R"/> amore e non saprei dire se riesce di
+                        <lb facs="#line13_7694-206R"/> conforto o di sofferenza. 
+                    </p>
+                    <closer>
+                            <salute>
+                                <lb facs="#line14_7694-206R"/> Con tutta l'affezione dell'anima
+                                <lb facs="#line15_7694-206R"/> <unclear reason="illegible" cert="low">abbia tu</unclear> un bacio. 
+                            </salute>   
+                            <signed>
+                                <hi rend="underline"><addName type="nick">Giovannino</addName></hi>
+                            </signed>
+                            <lb facs="#hotspot6_7694-206R"/> Ho bisogno delle tue parole - almeno.
+                    </closer>
+                </div>
+                <div type="destination">
+                    <ab>  
+                        <stamp type="postmark" facs="#hotspot1_7694-206R"> <!-- timbro 1-->
+                            <mentioned><gap reason="faded" agent="time"/>ferrovia</mentioned>
+                            <date when="1917"><unclear reason="faded"/>17.12</date>
+                        </stamp>
+                        <stamp type="postage" facs="#hotspot1_7694-206R"><hi rend="uppercase">poste italiane 5 centesimi</hi></stamp> 
+                    </ab>
+                    <ab>  
+                        <stamp type="postmark" facs="#hotspot2_7694-206R"> <!-- timbro 2-->
+                            <mentioned><gap reason="faded" agent="time"/>ferrovia</mentioned>
+                            <date when="1917"><unclear reason="faded"/>17.12</date>
+                        </stamp>
+                        <stamp type="postage" facs="#hotspot2_7694-206R"><hi rend="uppercase">poste italiane 5 centesimi</hi></stamp>
+                    </ab>
+                    <ab> <!-- indirizzo destinazione -->
+                        <address>
+                            <lb facs="#line1_7694-206R"/>
+                            <addrLine>
+                                <choice>
+                                    <abbr>Gent.<hi rend="sup">ma</hi></abbr>
+                                    <expan>Gentilissima</expan>
+                                </choice> 
+                                <choice>
+                                    <abbr>Sig.<hi rend="sup">na</hi></abbr>
+                                    <expan>Signorina</expan>
+                                </choice>
+                            </addrLine> 
+                            <lb facs="#line2_7694-206R"/>
+                            <addrLine><persName ref="OT">Oliva Turtura</persName></addrLine>
+                            <lb facs="#line3_7694-206R"/>
+                            <addrLine>Via Girolamo Rossi 58</addrLine>
+                            <lb facs="#line4_7694-206R"/>
+                            <addrLine><hi rend="underline">Ravenna</hi></addrLine>
+                        </address>
+                    </ab>
+                </div> 
+                <div type="remaining">
+                    <ab>
+                        <stamp type="catalogue_id" facs="#hotspot7_7694-206R">206</stamp>
+                        <note>Codice identificativo della cartolina, sicuramente aggiunto successivamente dal bibliotecario</note>
+                    </ab>
+                    <ab>
+                        <stamp type="typography" facs="#hotspot4_7694-206R">Proprietà artistica riservata - Uff. Rev. Stampa Milano 27-3-17 N 94" e 13 - 7</stamp>
+                        <note>Proprietà della cartolina (inserite al momento stesso della stampa).</note>
+                    </ab>
+                    <ab>
+                        <stamp type="send" facs="#hotspot3_7694-206R">2</stamp>
+                        <note>Stampa riguardante il secondo invio</note>
+                    </ab>
+                    <ab>
+                        <stamp type="typography" facs="#hotspot5_7694-206R">13-7</stamp>
+                        <note>Elementi di tipografia della cartolina</note>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+    
+</TEI>
+    
+    <?xml-stylesheet type="text/xsl" href="transform.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="215">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO (dell'edizione digitale) -->
+                <title>Trionfo di amorini - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name>
+                        <orgName type="comune" ref="#SP">Comune della
+                                <placeName>Spezia</placeName></orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica
+                    Umanistica, <orgName ref="#UNIPI">Università di
+                        <placeName>Pisa</placeName></orgName>
+                    <date>2019</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO-->
+                <respStmt>
+                    <resp>Compilatore: </resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo sotto licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di
+                                <placeName>Pisa</placeName></orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <sourceDesc n="215">
+                <bibl>
+                    <!-- TITOLO -->
+                    <title>Trionfo di amorini</title>
+                    <author><persName xml:id="PA">P. Albani</persName></author>
+                    <pubPlace>Genova, Palazzo Bianco</pubPlace>
+                    <!-- CRONOLOGIA-->
+                    <date when="1918">1918</date>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_215_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Poste Italiane 5 centesimi</stamp>
+                                </support>
+
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+
+                <!-- NOMI che compaiono all'interno della cartolina -->
+
+                <listPerson>
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person>
+                        <persName ref="#PA">
+                            <forename>P.</forename>
+                            <surname>Albani</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                </listPerson>
+                <!-- POSTI che compaiono all'interno della cartolina -->
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName xml:id="MO">Modena</placeName>
+                    <date type="postage" when="1918-02-14">14-02-1918</date>
+                    <date type="writing" when="1918-02-14">14-02-1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName>
+                        <address>
+                            <addrLine>Via Gerolamo Rossi - 58</addrLine>
+                            <addrLine>Ravenna</addrLine>
+                        </address>
+                    </placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <term>Cartolina </term>
+                    <!-- tipologia -->
+                    <term>Cartolina Artistica </term>
+                    <!-- descrizione -->
+                    <term>Amorini in trionfo su di un carro dorato</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="surface7694-215F">
+            <!-- FRONTE -->
+            <graphic url="group/7694-215F.jpg" width="814px" height="520px" n="imgF215"/>
+        </surface>
+
+        <surface xml:id="surface7694-215R">
+            <!-- RETRO -->
+            <graphic url="group/7694-215R.jpg" width="814px" height="516px" n="imgR215"/>
+            <zone ulx="447" uly="3" lrx="577" lry="115" rendition="HotSpot" xml:id="hotspot1_7694-215R"/>
+            <!-- Francobollo + timbro -->
+            <zone ulx="355" uly="29" lrx="415" lry="69" rendition="HotSpot" xml:id="hotspot2_7694-215R"/>
+            <!-- numero 215 -->
+            <zone ulx="289" uly="120" lrx="536" lry="174" rendition="Line" xml:id="line1_7694-215R"/>
+            <!-- gentile sig.na -->
+            <zone ulx="321" uly="179" lrx="574" lry="215" rendition="Line" xml:id="line2_7694-215R"/>
+            <!-- oliva turtura -->
+            <zone ulx="283" uly="217" lrx="573" lry="263" rendition="Line" xml:id="line3_7694-215R"/>
+            <!-- via gerolamo rossi 58 -->
+            <zone ulx="287" uly="273" lrx="558" lry="357" rendition="Line" xml:id="line4_7694-215R"/>
+            <!-- ravenna -->
+            <zone ulx="217" uly="80" lrx="267" lry="291" rendition="Line" xml:id="line5_7694-215R"/>
+            <!-- modena -->
+            <zone ulx="173" uly="38" lrx="212" lry="289" rendition="Line" xml:id="line7_7694-215R"/>
+            <!-- prima riga -->
+            <zone ulx="141" uly="18" lrx="166" lry="287" rendition="Line" xml:id="line8_7694-215R"/>
+            <!-- seconda riga -->
+            <zone ulx="31" uly="19" lrx="121" lry="285" rendition="Line" xml:id="line9_7694-215R"/>
+            <!-- tuo Giovannino -->
+            <zone ulx="251" uly="17" lrx="307" lry="77" rendition="HotSpot" xml:id="hotspot3_7694-215R"/>
+            <!-- monnalisa -->
+            <zone ulx="7" uly="108" lrx="23" lry="248" rendition="Line" xml:id="hotspot4_7694-215R"/>
+            <!-- proprietà artistica riservata -->
+            <zone ulx="15" uly="291" lrx="236" lry="343" rendition="Line" xml:id="hotspot5_7694-215R"/>
+            <!-- autore e traduzioni nome cartolina -->
+        </surface>
+    </facsimile>
+
+    <text type="cartolina" xml:id="text7694-215" xml:lang="ita">
+        <body n="215">
+            <div type="fronte" facs="#surface7694-215F">
+                <figure>
+                    <head>Trionfo di amorini</head>
+                    <figDesc>Amorini in trionfo su di un carro dorato</figDesc>
+                </figure>
+            </div>
+            <div type="retro" facs="#surface7694-215R">
+                <div type="message">
+                    <opener>
+                        
+                            <lb facs="#line5_7694-215R #line6_7694-215"/>
+                        <dateline>
+                            <placeName ref="#MO">Modena</placeName>
+                            ,lì 
+                            <date when="1918-02-14">14/02-18</date>
+                        </dateline>
+                    </opener>
+                    <p>
+                        <lb facs="#line7_7694-215R"/> Con affetto profondo 
+                        <lb facs="#line8_7694-215R"/> rivolgo a te il mio pensiero 
+                    </p>
+                    <closer>
+                        <lb facs="#line9_7694-215R"/> tuo <addName type="nick">Giovannino</addName>
+                    </closer>
+                </div>
+            
+            <div type="destination">
+                <ab>
+                    <!-- timbro e francobollo -->
+                    <stamp type="postmark" facs="#hotspot1_7694-215R">
+                        <mentioned>Modena Ferrovia</mentioned>
+                        <date when="1918-02-14">14.2.1918</date>
+                    </stamp>
+                    <stamp type="postage" facs="#hotspot1_7694-215R"><hi rend="uppercase">poste
+                            italiane 5 centesimi</hi></stamp>
+                </ab>
+                <ab>
+                    <!-- indirizzo destinazione -->
+                    <address>
+                        <lb facs="#line1_7694-215R"/>
+                        <addrLine>
+                            <choice>
+                                <abbr>Gent</abbr>
+                                <expan>Gentile</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Sig <hi rend="sup">na</hi></abbr>
+                                <expan>Signorina</expan>
+                            </choice>
+                        </addrLine>
+                        <lb facs="#line2_27694-215R"/>
+                        <addrLine>
+                            <persName ref="#OT">Oliva Turtura</persName>
+                        </addrLine>
+                        <lb facs="#line3_7694-215R"/>
+                        <addrLine>Via Gerolamo Rossi 58</addrLine>
+                        <lb facs="#line4_7694-215R"/>
+                        <addrLine>
+                            <hi rend="underline">
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="remaining">
+                <ab>
+                    <stamp type="catalogue_id" facs="#hotspot2_7694-215R">215</stamp>
+                    <note>Codice identificativo della cartolina, sicuramente aggiunto
+                        successivamente dal bibliotecario</note>
+                </ab>
+                <ab>
+                    <stamp type="typography" facs="#hotspot3_7694-215R">
+                        <mentioned>Raffigurazione in piccolo della Monnalisa</mentioned>
+                    </stamp>
+                    <note>Elementi di tipografia della cartolina</note>
+                </ab>
+                <ab type="typography">
+                    <stamp facs="#hotspot4_7694-215R">Proprietà artistica riservata.</stamp>
+                    <note>Proprietà della cartolina (inserite al momento stesso della
+                        stampa).</note>
+                </ab>
+                <ab>
+                    <stamp type="typography" facs="#hotspot5_7694-215R">2501. <name ref="#PA">P.
+                            Albani</name> - Trionfo di amorini. Triomphe de petits amours. Triumph
+                        of Cupids. Triumph der Liebesgötter. (Genova, Palazzo Bianco) </stamp>
+                    <note>Informazioni su: autore, titolo (tradotto in 4 lingue) e luogo di
+                        realizzazione della cartolina</note>
+                </ab>
+            </div>
+           </div>
+        </body>
+    </text>
+
+
+</TEI>
+    <?xml-stylesheet type="text/xsl" href="transform.xsl" ?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="223">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO (dell'edizione digitale) -->
+                <title>Vaso di fiori - Edizione digitale</title>
+                <!-- TRASCRITTORE -->
+                <respStmt>
+                    <resp>Trascrizione a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+             <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                    <date>2019</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO-->
+                <respStmt>
+                    <resp>Compilatore: </resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo sotto licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>  
+            <sourceDesc n="223">
+                <bibl>
+                    <title type="custom" resp="#ES">[Vaso di fiori]</title>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_223_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>francobollo - Regno d'Italia</stamp>
+                                </support>                             
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>            
+                <!-- NOMI che compaiono all'interno della cartolina-->
+                <listPerson>
+                    <person>
+                        <persName xml:id="MC">
+                            <forename>Maria</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                <!-- POSTI che compaiono all'interno della cartolina-->
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#MC"/>
+                    <placeName>Spezia</placeName>
+                    <!-- DATA data di invio da timbro -->
+                    <date type="postage" when="1917-05-25">25/05/1917</date>
+                    <date type="writing" when="1917-05-24">24/05/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName>
+                        <address>
+                            <addrLine>Via Gerolamo Rossi - 58</addrLine>
+                            <addrLine>Ravenna</addrLine>
+                        </address>
+                    </placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <term>Cartolina artistica</term>
+                    <term>Artistica </term>
+                    <term>Un vaso di fiori</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <facsimile>
+        <surface xml:id="surface7694-223F"> <!-- 7694-223 FRONTE -->
+            <graphic url="group/7694-223F.jpg" width="527px" height="819px" n="imgF223"/>
+        </surface>
+
+        <surface xml:id="surface7694-223R"> <!-- 7694-223 RETRO -->
+            <graphic url="group/7694-223R.jpg" width="822px" height="530px" n="imgR223"/>
+            <zone ulx="461" uly="19" lrx="579" lry="144" rendition="HotSpot" xml:id="hotspot1_7694-223R"/> <!-- francobollo e timbro -->
+            <zone ulx="385" uly="45" lrx="449" lry="67" rendition="HotSpot" xml:id="hotspot2_7694-223R"/> <!-- 223 -->
+            <zone ulx="331" uly="152" lrx="571" lry="187" rendition="Line" xml:id="line1_7694-223R"/> <!-- gentilissima signorina -->
+            <zone ulx="283" uly="196" lrx="554" lry="238" rendition="Line" xml:id="line2_7694-223R"/> <!-- signorina oliva turtura -->
+            <zone ulx="283" uly="245" lrx="577" lry="287" rendition="Line" xml:id="line3_7694-223R"/> <!-- via gerolamo rossi -->
+            <zone ulx="308" uly="295" lrx="573" lry="354" rendition="Line" xml:id="line4_7694-223R"/> <!-- ravenna -->
+            <zone ulx="284" uly="67" lrx="442" lry="151" rendition="HotSpot" xml:id="hotspot3_7694-223R"/> <!-- censura spezia -->
+            <zone ulx="87" uly="131" lrx="275" lry="245" rendition="Line" xml:id="line5_7694-223R"/> <!-- spezia -->
+            <zone ulx="71" uly="231" lrx="211" lry="50" rendition="Line" xml:id="line6_7694-223R"/> <!-- contraccambio -->
+            <zone ulx="52" uly="148" lrx="130" lry="36" rendition="Line" xml:id="line7_7694-223R"/> <!-- baci e saluti -->
+            <zone ulx="135" uly="198" lrx="179" lry="111" rendition="Line" xml:id="line8_7694-223R"/> <!-- affettuosissimi -->
+            <zone ulx="77" uly="208" lrx="188" lry="52" rendition="Line" xml:id="line9_7694-223R"/> <!-- maria -->
+            <zone ulx="19" uly="293" lrx="33" lry="355" rendition="HotSpot" xml:id="hotspot4_7694-223R"/> <!-- serie 2000 -->
+            <zone ulx="260" uly="352" lrx="291" lry="365" rendition="HotSpot" xml:id="hotspot5_7694-223R"/> <!-- D.N.S. -->
+        </surface>
+    </facsimile>
+
+    <text type="cartolina" xml:id="text7694-223" xml:lang="ita">
+        <body n="223">
+            <div type="fronte">
+                <note xml:id="noteFronte">In basso a sinistra, è presente una scritta poco leggibile (a causa di una piega sulla carta) che potrebbe indicare il nome dell'artista.</note>
+                <figure>
+                    <figDesc>La cartolina raffigura un vaso di fiori blu con delle foglie larghe, su uno sfondo chiaro.</figDesc>
+                    <head>[Vaso di fiori]</head>
+                </figure>
+            </div>
+            <div type="retro" facs="#surface7694-223R">
+                <div type="message">
+                    <opener>
+                            
+                                <lb facs="#line5_7694-223R"/>
+                        <dateline>
+                                <placeName>Spezia</placeName>, <date when="1917-05-24">24 - V - 17</date>
+                        </dateline>
+                    </opener>
+                    <p>
+                        <lb facs="#line6_7694-223R"/>Contraccambio affettuosi
+                        <lb facs="#line7_7694-223R"/>baci e saluti.
+                    </p>
+                    <closer>
+                            <signed>
+                                <lb facs="#line8_7694-223R"/>
+                                <choice>
+                                    <abbr>Aff. <hi rend="sup underline">ma</hi></abbr>
+                                    <expan>Affettuosissima</expan>
+                                </choice>
+                                <lb facs="#line9_7694-223R"/> <persName ref="#MC">Maria Coliola</persName>
+                            </signed>
+                    </closer>
+                </div>
+                <div type="destination">
+                    <ab>  <!-- timbro e francobollo-->
+                        <stamp type="postmark" facs="#hotspot1_7694-223R"> 
+                            <mentioned>spezia arrivi e partenze</mentioned>
+                            <date when="1917-05-25">25.5.1917</date>
+                        </stamp>
+                        <stamp type="postage" facs="#hotspot1_7694-223R"><hi rend="uppercase">poste italiane 5 centesimi</hi></stamp>
+                    </ab>
+                    <ab> <!-- indirizzo destinazione -->
+                        <address>
+                            <lb facs="#line1_7694-223R"/>
+                            <addrLine>Alla 
+                                <choice>
+                                    <abbr>Gent.<hi rend="sup underline">ma</hi></abbr>
+                                    <expan>Gentilissima</expan>
+                                </choice> 
+                                <choice>
+                                    <abbr>Sig.<hi rend="sup underline">na</hi></abbr>
+                                    <expan>Signorina</expan>
+                                </choice>
+                            </addrLine>
+                            <lb facs="#line2_7694-223R"/>
+                            <addrLine>
+                                <choice>
+                                    <abbr>Sig.<hi rend="sup underline">na</hi></abbr>
+                                    <expan>Signorina</expan>
+                                </choice>
+                                <persName ref="#OT">Olivia Turtura</persName>
+                            </addrLine>
+                            <lb facs="#line3_7694-223R"/>
+                            <addrLine>Via Gerolamo Rossi - 58 -</addrLine>
+                            <lb facs="#line4_7694-223R"/>
+                            <addrLine>
+                                <hi rend="uppercase underline">
+                                    <placeName ref="#RV">Ravenna</placeName>
+                                </hi>
+                            </addrLine>
+                        </address>
+                    </ab>
+                </div>
+                <div type="remaining">
+                    <ab>
+                        <stamp type="catalogue_id" facs="#hotspot2_7694-223R">223</stamp>
+                        <note>Codice identificativo della cartolina, sicuramente aggiunto successivamente dal bibliotecario</note>
+                    </ab>
+                    <ab>
+                        <stamp type="send" facs="#hotspot3_7694-223R">Censura Spezia</stamp>
+                        <note>Timbro di censura postale</note>
+                    </ab>
+                    <ab>
+                        <stamp type="typography" facs="#hotspot4_7694-223R">Serie 2000</stamp>
+                        <note>Elementi di tipografia della cartolina</note>
+                    </ab>
+                    <ab>
+                        <stamp type="typography" facs="#hotspot5_7694-223R">D.S.N.</stamp>
+                        <note>Altri elementi di tipografia della cartolina</note>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+</teiCorpus>

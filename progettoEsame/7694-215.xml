@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<!DOCTYPE TEI SYSTEM "tei.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" n="215">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO (dell'edizione digitale) -->
+                <title>Trionfo di amorini - Edizione digitale</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name>
+                        <orgName type="comune" ref="#SP">Comune della
+                                <placeName>Spezia</placeName></orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica
+                    Umanistica, <orgName ref="#UNIPI">Università di
+                        <placeName>Pisa</placeName></orgName>
+                    <date>2019</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO-->
+                <respStmt>
+                    <resp>Compilatore: </resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo sotto licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di
+                                <placeName>Pisa</placeName></orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <sourceDesc n="215">
+                <bibl>
+                    <!-- TITOLO -->
+                    <title>Trionfo di amorini</title>
+                    <author><persName xml:id="PA">P. Albani</persName></author>
+                    <pubPlace>Genova, Palazzo Bianco</pubPlace>
+                    <!-- CRONOLOGIA-->
+                    <date when="1918">1918</date>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_215_001/002</idno>
+                    </msIdentifier>
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Francobollo - Poste Italiane 5 centesimi</stamp>
+                                </support>
+
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+
+                <!-- NOMI che compaiono all'interno della cartolina -->
+
+                <listPerson>
+                    <person>
+                        <persName ref="#GC">
+                            <forename>Giovanni</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person>
+                        <persName ref="#OT">
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person>
+                        <persName ref="#PA">
+                            <forename>P.</forename>
+                            <surname>Albani</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                </listPerson>
+                <!-- POSTI che compaiono all'interno della cartolina -->
+                <listPlace>
+                    <place>
+                        <placeName ref="#RV">Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC"/>
+                    <placeName xml:id="MO">Modena</placeName>
+                    <date type="postage" when="1918-02-14">14-02-1918</date>
+                    <date type="writing" when="1918-02-14">14-02-1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT"/>
+                    <placeName>
+                        <address>
+                            <addrLine>Via Gerolamo Rossi - 58</addrLine>
+                            <addrLine>Ravenna</addrLine>
+                        </address>
+                    </placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <term>Cartolina </term>
+                    <!-- tipologia -->
+                    <term>Cartolina Artistica </term>
+                    <!-- descrizione -->
+                    <term>Amorini in trionfo su di un carro dorato</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface xml:id="surface7694-215F">
+            <!-- FRONTE -->
+            <graphic url="group/7694-215F.jpg" width="814px" height="520px" n="imgF215"/>
+        </surface>
+
+        <surface xml:id="surface7694-215R">
+            <!-- RETRO -->
+            <graphic url="group/7694-215R.jpg" width="814px" height="516px" n="imgR215"/>
+            <zone ulx="447" uly="3" lrx="577" lry="115" rendition="HotSpot"
+                xml:id="hotspot1_7694-215R"/>
+            <!-- Francobollo + timbro -->
+            <zone ulx="355" uly="29" lrx="415" lry="69" rendition="HotSpot"
+                xml:id="hotspot2_7694-215R"/>
+            <!-- numero 215 -->
+            <zone ulx="289" uly="120" lrx="536" lry="174" rendition="Line" xml:id="line1_7694-215R"/>
+            <!-- gentile sig.na -->
+            <zone ulx="321" uly="179" lrx="574" lry="215" rendition="Line" xml:id="line2_7694-215R"/>
+            <!-- oliva turtura -->
+            <zone ulx="283" uly="217" lrx="573" lry="263" rendition="Line" xml:id="line3_7694-215R"/>
+            <!-- via gerolamo rossi 58 -->
+            <zone ulx="287" uly="273" lrx="558" lry="357" rendition="Line" xml:id="line4_7694-215R"/>
+            <!-- ravenna -->
+            <zone ulx="217" uly="80" lrx="267" lry="291" rendition="Line" xml:id="line5_7694-215R"/>
+            <!-- modena -->
+            <zone ulx="173" uly="38" lrx="212" lry="289" rendition="Line" xml:id="line7_7694-215R"/>
+            <!-- prima riga -->
+            <zone ulx="141" uly="18" lrx="166" lry="287" rendition="Line" xml:id="line8_7694-215R"/>
+            <!-- seconda riga -->
+            <zone ulx="31" uly="19" lrx="121" lry="285" rendition="Line" xml:id="line9_7694-215R"/>
+            <!-- tuo Giovannino -->
+            <zone ulx="251" uly="17" lrx="307" lry="77" rendition="HotSpot"
+                xml:id="hotspot3_7694-215R"/>
+            <!-- monnalisa -->
+            <zone ulx="7" uly="108" lrx="23" lry="248" rendition="Line" xml:id="hotspot4_7694-215R"/>
+            <!-- proprietà artistica riservata -->
+            <zone ulx="15" uly="291" lrx="236" lry="343" rendition="Line"
+                xml:id="hotspot5_7694-215R"/>
+            <!-- autore e traduzioni nome cartolina -->
+        </surface>
+    </facsimile>
+
+    <text type="cartolina" xml:id="text7694-215" xml:lang="ita">
+        <body n="215">
+            <div type="fronte" facs="#surface7694-215F">
+                <figure>
+                    <head>Trionfo di amorini</head>
+                    <figDesc>Amorini in trionfo su di un carro dorato</figDesc>
+                </figure>
+            </div>
+            <div type="retro" facs="#surface7694-215R">
+                <div type="message">
+                    <opener>
+                        
+                            <lb facs="#line5_7694-215R #line6_7694-215"/>
+                        <dateline>
+                            <placeName ref="#MO">Modena</placeName>
+                            ,lì 
+                            <date when="1918-02-14">14/02-18</date>
+                        </dateline>
+                    </opener>
+                    <p>
+                        <lb facs="#line7_7694-215R"/> Con affetto profondo 
+                        <lb facs="#line8_7694-215R"/> rivolgo a te il mio pensiero 
+                    </p>
+                    <closer>
+                        <lb facs="#line9_7694-215R"/> tuo <addName type="nick">Giovannino</addName>
+                    </closer>
+                </div>
+            
+            <div type="destination">
+                <ab>
+                    <!-- timbro e francobollo -->
+                    <stamp type="postmark" facs="#hotspot1_7694-215R">
+                        <mentioned>Modena Ferrovia</mentioned>
+                        <date when="1918-02-14">14.2.1918</date>
+                    </stamp>
+                    <stamp type="postage" facs="#hotspot1_7694-215R"><hi rend="uppercase">poste
+                            italiane 5 centesimi</hi></stamp>
+                </ab>
+                <ab>
+                    <!-- indirizzo destinazione -->
+                    <address>
+                        <lb facs="#line1_7694-215R"/>
+                        <addrLine>
+                            <choice>
+                                <abbr>Gent</abbr>
+                                <expan>Gentile</expan>
+                            </choice>
+                            <choice>
+                                <abbr>Sig <hi rend="sup">na</hi></abbr>
+                                <expan>Signorina</expan>
+                            </choice>
+                        </addrLine>
+                        <lb facs="#line2_27694-215R"/>
+                        <addrLine>
+                            <persName ref="#OT">Oliva Turtura</persName>
+                        </addrLine>
+                        <lb facs="#line3_7694-215R"/>
+                        <addrLine>Via Gerolamo Rossi 58</addrLine>
+                        <lb facs="#line4_7694-215R"/>
+                        <addrLine>
+                            <hi rend="underline">
+                                <placeName ref="#RV">Ravenna</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </ab>
+            </div>
+            <div type="remaining">
+                <ab>
+                    <stamp type="catalogue_id" facs="#hotspot2_7694-215R">215</stamp>
+                    <note>Codice identificativo della cartolina, sicuramente aggiunto
+                        successivamente dal bibliotecario</note>
+                </ab>
+                <ab>
+                    <stamp type="typography" facs="#hotspot3_7694-215R">
+                        <mentioned>Raffigurazione in piccolo della Monnalisa</mentioned>
+                    </stamp>
+                    <note>Elementi di tipografia della cartolina</note>
+                </ab>
+                <ab type="typography">
+                    <stamp facs="#hotspot4_7694-215R">Proprietà artistica riservata.</stamp>
+                    <note>Proprietà della cartolina (inserite al momento stesso della
+                        stampa).</note>
+                </ab>
+                <ab>
+                    <stamp type="typography" facs="#hotspot5_7694-215R">2501. <name ref="#PA">P.
+                            Albani</name> - Trionfo di amorini. Triomphe de petits amours. Triumph
+                        of Cupids. Triumph der Liebesgötter. (Genova, Palazzo Bianco) </stamp>
+                    <note>Informazioni su: autore, titolo (tradotto in 4 lingue) e luogo di
+                        realizzazione della cartolina</note>
+                </ab>
+            </div>
+           </div>
+        </body>
+    </text>
+
+
+</TEI>

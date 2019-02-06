@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "tei.dtd">
+
+<teiCorpus  xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="titleCorpus">Cartoline a Oliva</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascrizione a cura di: </resp>
+                    <name xml:id="MM">Marica Massari</name>
+                    <name xml:id="AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza: </resp>
+                    <name>
+                        <orgName type="comune" xml:id="SP">Comune della <placeName>Spezia</placeName></orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica, <orgName xml:id="UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                    <date>2019</date>
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica a cura di: </resp>
+                    <name ref="#MM">Marica Massari</name>
+                    <name ref="#AM">Alessia Minissale</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO-->
+                <respStmt>
+                    <resp>Compilatore: </resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico: </resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile: </resp>
+                    <name xml:id="ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName>
+                </publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Disponibile solo sotto licenza</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD - Laboratorio di cultura digitale</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#UNIPI">Università di <placeName>Pisa</placeName></orgName></addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>La Spezia (SP)</settlement>
+                        <repository>
+                            Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale
+                        </repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Edizione digitale image-based (diplomatico-interpretativa) di tre cartoline contenute in una collezione situata nel Museo Civico Etnografico "Giovanni Podenzana" di La Spezia. La codifica effettuata prevede la trascrizione letterale del testo senza interventi sostanziali: sono state, ad esempio, espanse le abbreviazioni e semplicemente segnalate le parti poco chiare.</p>
+        </encodingDesc>
+    </teiHeader>
+    <xi:include href="7694-206.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <xi:fallback> <p>Cartolina 206 mancante</p> </xi:fallback>
+    </xi:include>
+    
+    <xi:include href="7694-215.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <xi:fallback> <p>Cartolina 215 mancante</p> </xi:fallback>
+    </xi:include>
+    <xi:include href="7694-223.xml" xmlns:xi="http://www.w3.org/2001/XInclude">
+        <xi:fallback> <p>Cartolina 223 mancante</p> </xi:fallback>
+    </xi:include>
+</teiCorpus>

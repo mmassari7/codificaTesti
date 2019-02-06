@@ -1,0 +1,316 @@
+body {
+    margin: 0;
+}
+header{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+    background-color:rgb(194, 163, 145);
+
+}
+
+header h1 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+
+div#home {
+    margin: auto;
+    padding: 2%;
+    padding-bottom: 5%;
+    text-align: center;
+
+}
+
+div.span {
+    display: inline;
+    padding: 0;
+    margin: 5px;
+}
+
+img.manage {
+    width: 21%;
+    display: inline-block;
+    margin: 1%;
+    border-radius: 5px;
+}
+div.span img:hover {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Homemade Apple', serif;
+}
+h4, h5, h6 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+#headerInput {
+    background-color:rgb(194, 163, 145);
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+.jpgContainer {
+    width: 46%;
+    float: left;
+    margin-left: 3%;
+    border-radius: 15px;
+    padding-top: 5%;
+    margin-bottom: 1%;
+}
+
+#mainContainer input:hover{
+    background-color:rgb(145, 99, 81);
+}
+
+
+input#Fretro, input#fronteR{
+    margin-left: 1.8%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    /*width: 7%;
+    height: 3.5%;
+    padding-bottom: 2.7%;*/
+
+    background-color: rgb(194, 163, 145);
+    border-radius: 8px;
+    border: 1px solid rgb(160, 110, 90);
+    font-family: 'Homemade Apple', cursive;
+    font-size: 15px;
+}
+
+#cambiacartolina {
+    padding: 0.5%;
+    width: 2%;
+    float: right;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-right: 1.8%;
+    background-color: rgb(219, 197, 184);
+    border-radius: 8px;
+    border: 1px solid rgb(160, 110, 90);
+
+}
+
+input#ruota {
+        padding: 0.5%;
+        width: 2%;
+        float: left;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        margin-right: 1.8%;
+        background-color: rgb(219, 197, 184);
+        border-radius: 8px;
+        border: 1px solid rgb(160, 110, 90);
+    
+}
+
+
+a.zoom img:hover {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.jpgContainer img{
+    width: 580px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 3%;
+    position: relative;
+} 
+
+.textContainer {
+    font-family: 'Playfair Display', serif;
+    float: right;
+    width: 46%;
+    padding: 0.5%;
+    height: 560px;
+    margin-right: 3%;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    border-left: 3px solid rgb(211, 176, 162);
+}
+#divF206, #divF215, #divF223 {
+    margin-left: 1%;
+}
+
+span {
+    display:block;
+}
+.line8_7694-206R {
+    display: inline;
+}
+.sinistra {
+    float: left;
+    width: 52%;
+    border-right: 1px solid rgb(87, 72, 67);
+}
+.destra {
+    float: right;
+    width: 47%;
+    
+}
+.corpo, .chiusura, .apertura {
+    margin-top: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 15px;
+    width: 290px;
+    float: left;
+    position: relative;
+    
+}
+.apertura span, .chiusura span {
+    font-size: 0.9em;
+    color: rgb(49, 41, 41);
+}
+
+.corpo span {
+    font-size: 1em;
+}
+.destPortion  {
+    margin-top: 10px;
+    margin-right: 3px;
+    margin-left: 10px;
+    padding-left: 25px;
+    padding-top: 2%;
+    text-align: right;
+    font-size: 15px;
+    float: right;
+    display: inline;
+    position: relative;
+}
+.destPortion h3 {
+    font-family: 'Homemade Apple', cursive;
+}
+.stampPortion {
+    text-align: center;
+    font-size: 13px;
+    background-color: rgba(238, 231, 222, 0.966);
+    position: relative;
+}
+#divR206 .stampPortion {
+    width: 48%;
+    display: inline-block;
+}
+.remaining {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    padding-right: 1%;
+    background-color: rgb(245, 237, 237);
+}
+.remaining span {
+    position: relative;
+    width: 100%;
+    font-size: 13px;
+    margin-left: 1%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+a#linkUP {
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+}
+a#linkUP:hover {
+    color: rgb(0, 0, 0);
+}
+p {
+    font: 1.2em;
+    font-family: 'Playfair Display', serif;
+}
+
+#title {
+    padding: 0;
+}
+
+a {
+    color: black;
+}
+footer{
+    color: black;
+    padding-bottom: 3%;
+    padding-top: 4%;
+    margin-bottom: 0;
+    margin-top: 12%;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(194, 163, 145);
+}
+#encodingDesc {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: lighter;
+}
+footer h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.9em;
+}
+table {
+    width: 40%;
+    margin: auto;
+    font-family: 'Homemade Apple', cursive;
+}
+th {
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    color: rgb(49, 0, 0);
+    display: inline;
+
+}
+
+td {
+    display: inline;
+    padding-left: 3%;
+}
+#info {
+    margin-top : 3%;
+    margin-left : 2%;
+    font-size: 14px;
+    color: rgb(49, 0, 0);
+    text-align: center;
+}
+#info1 {
+    margin-top: 0;
+    margin-left : 2%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    color: rgb(49, 32, 0);
+    text-align: center;
+}
+.rotate270 {
+    transform: rotate(270deg);
+}
+
+.invisible {
+    display: none;
+}
+.unclearMedium {
+    color: rgb(75, 75, 75);
+    font-style:italic;
+}
+.unclearLow {
+    color: rgb(109, 109, 109);
+    font-style:italic;
+    
+}
+#biblio206, #biblio215, #biblio223 {
+width: 45%;
+float: left;
+text-align: left;
+margin-left: 3%;
+margin-top: 7%;
+font-family: 'Playfair Display', serif;
+}
+#list {
+    list-style-type: none;
+}
+
